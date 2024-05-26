@@ -9,7 +9,6 @@ while number > 0:
     phone_number.append(number%10)
     number = (number - number%10) // 10
 
-
 first_digit = str(phone_number[-1])
 second_digit = str(phone_number[-2])
 third_digit = str(phone_number[-3])
